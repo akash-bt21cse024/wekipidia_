@@ -1,6 +1,6 @@
 import streamlit as st
 import requests
-pip install bs4
+
 from bs4 import BeautifulSoup
 st.title("SEARCH ON WEKIPEDIA")
 var=st.text_input("write your model name ")
