@@ -2,7 +2,10 @@ import streamlit as st
 import requests
 
 from bs4 import BeautifulSoup
-st.title("SEARCH ON WEKIPEDIA")
+
+
+st.set_page_config(page_title="WIKIPEDIA SEARCH",layout='wide')
+st.title("SEARCH ON WIKIPEDIA")
 var=st.text_input("write your model name ")
 title = var.replace(' ','+')
 link = 'https://www.google.com/search?q=' + title + '+wikipedia'
